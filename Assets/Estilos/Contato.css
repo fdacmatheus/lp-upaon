@@ -1,0 +1,45 @@
+.contato-bg {
+    padding: 65px 0px;
+}
+
+.contato-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+.faq {
+    background-color: #FEF2D6;
+    padding: 32px
+}
+.formulario {
+    background-color: var(--cor-salmao);
+    padding: 32px;
+    margin-bottom: 20px;
+}
+label {
+    display: none;
+}
+.formulario form input {
+    margin: 8px;
+    padding: 16px;
+    border-radius: 8px;
+    border: none;
+    width: max-content;
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+select{
+    padding: 8px;
+    border-radius: 8px;
+    border: none;
+    line-height: 8px;
+    align-items: center;
+}
+.form-group {
+    display: flex;
+    align-items: stretch;
+}

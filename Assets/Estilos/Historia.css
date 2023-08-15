@@ -1,7 +1,6 @@
 .historia-bg {
-    padding: 64px 0px;
-    background-color: var(--cor-principal);
-    
+    padding: 65px 0px;
+    background-color: var(--cor-principal);  
 }
 .container-historia {
     display: grid;
