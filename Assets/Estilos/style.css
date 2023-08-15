@@ -1,9 +1,6 @@
-@import "../Estilos/reset.css";
-* {
-    font-size: 20px;
-    color: black;
-}
-h1 {
-    font-size: 20px;
-    color: black;
-}
+@import "./reset.css";
+@import "./global.css";
+@import "./Header.css";
+@import "./Banner.css";
+@import "./Ensino.css";
+@import "./Historia.css";

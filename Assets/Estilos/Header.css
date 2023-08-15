@@ -1,0 +1,22 @@
+.header-bg {
+    padding: 70px 0px;
+}
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.menu-container {
+    flex-wrap: wrap;
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+.menu-container li {
+    color: var(--cor-texto-branca);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+}

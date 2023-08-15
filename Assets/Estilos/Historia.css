@@ -1,0 +1,23 @@
+.historia-bg {
+    padding: 64px 0px;
+    background-color: var(--cor-principal);
+    
+}
+.container-historia {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+.conteudo-historia{
+    display: grid;
+    align-self: flex-start;
+    gap: 16px;
+}
+.conteudo-historia span {
+    text-transform: uppercase;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+}
+.conteudo-historia p {
+    text-align: justify;
+}

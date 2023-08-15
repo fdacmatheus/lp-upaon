@@ -1,0 +1,66 @@
+
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Open+Sans&display=swap');
+
+
+ :root {
+    --cor-principal: #0171C7;
+    --cor-destaque: #ED6229;
+    --cor-texto-preta: #00101C;
+    --cor-texto-cinza: #555555;
+    --cor-texto-branca: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    
+ }
+
+.h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 48px;
+    line-height: 56px;
+    font-weight: 800;
+}
+
+.h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32px;
+    line-height: 32px;
+    font-weight: 600;
+}
+
+.paragrafo {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.subtitul-maior {
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 500;
+}
+.subtitulo-menor {
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 600;
+}
+
+.container {
+    max-width: 1171px;
+    margin: 0 auto;
+} 
+
+.cor-branca {
+    color: var(--cor-texto-branca);
+}
+.cor-preta {
+    color: var(--cor-texto-preta);
+}
+
+.botao {
+    color: var(--cor-texto-branca);
+    background: var(--cor-destaque);
+    display: inline-flex;
+    gap: 8px;
+    padding: 8px 32px;
+    border-radius: 56px;
+    max-width: max-content;
+}
