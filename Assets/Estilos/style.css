@@ -1,1 +1,9 @@
 @import "../Estilos/reset.css";
+* {
+    font-size: 20px;
+    color: black;
+}
+h1 {
+    font-size: 20px;
+    color: black;
+}
