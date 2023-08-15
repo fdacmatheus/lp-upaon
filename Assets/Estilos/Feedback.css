@@ -1,0 +1,30 @@
+.feedback-bg {
+    padding: 65px 0px;
+    text-align: center;
+}
+.header-feedback p {
+    text-transform: uppercase;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 8px;
+}
+.feedback-cards {
+    margin-top: 64px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 16px;
+    align-items: stretch;
+}
+.feedback-card {
+   padding: 32px;
+}
+.feedback-card p {
+    text-align: left;
+ }
+
+.rodape-card{
+    margin-top: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
