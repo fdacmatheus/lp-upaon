@@ -1,5 +1,5 @@
 function clickMenu() {
-  if (menu.style.display == "flex") {
+  if (nav.style.display == "block") {
     menu.style.display = "none";
     nav.style.display = "none";
     burguer.src = "./Assets/Img/Icons/menu-hamburguer.svg";

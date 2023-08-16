@@ -54,9 +54,10 @@
   }
 
   #nav {
+    display: none;
     grid-column: 1/-1;
     background-color: var(--cor-texto-branca);
-    padding: 16px;
+    padding: 32px 16px;
     width: 300px;
     justify-self: end;
     border-radius: 4px;
@@ -74,7 +75,7 @@
     grid-column: 1/-1;
   }
 
-  .botao {
-    display: none;
+  .contato {
+    color: var(--cor-texto-branca) !important;
   }
 }
