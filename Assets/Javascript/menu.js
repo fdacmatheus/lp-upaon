@@ -10,3 +10,4 @@ function clickMenu() {
     burguer.src = "./Assets/Img/Icons/menu-close.svg";
   }
 }
+
