@@ -7,3 +7,84 @@
 @import "./Feedback.css";
 @import "./Tour.css";
 @import "./Contato.css";
+@import "./Reponsivo.css";
+
+@media (max-width: 768px) {
+.bg-main{
+    height: auto;
+    padding: 20px 0px;
+    text-align: center;
+}
+.header-bg{
+    padding: 20px 0px;
+}
+.call-to-action{
+    padding-top: 20px;
+    align-items: center;
+    gap: 16px;
+}
+  .container-main{
+    flex-direction: column;
+    padding: 32px;
+  }
+  .imagem-alunos{
+    display: none;
+  }
+
+/* Niveis de ensino */
+  .header-ensino {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .grid-niveis {
+    grid-template-columns: 1fr;
+    padding: 48px 16px;
+  }
+  .container-nivel {
+    align-items: center;
+  }
+ /*Conheça o Upaon*/
+ .historia-bg {
+    padding: 0px;
+ }
+ .container-historia {
+    gap: 32px;
+    padding: 48px 16px;
+    grid-template-columns: 1fr;
+ }
+ /* Feedback */
+ .header-feedback{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+ }
+ .feedback-cards {
+    padding: 0px 16px;
+    margin-top: 32px;
+    grid-template-columns: 1fr;
+ }
+ /* Tour */
+ .tour-container {
+    flex-direction: column;
+    padding: 0px 16px;
+ }
+ .tour-container  img {
+    max-width: 100%;
+ }
+ .header-tour {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+ }
+ /* Contato */
+ .contato-container {
+    display: flex;
+    flex-direction: column;
+ }
+  /* Gerais */
+  .h1 {
+    font-size: 38px;
+  }
+
+  }

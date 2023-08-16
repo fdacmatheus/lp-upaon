@@ -24,13 +24,13 @@ label {
     padding: 16px;
     border-radius: 8px;
     border: none;
-    width: max-content;
 
 }
 
 form {
     display: flex;
     flex-direction: column;
+    overflow: hidden;
 }
 select{
     padding: 8px;
