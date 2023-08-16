@@ -12,6 +12,7 @@
   display: flex;
   gap: 16px;
   align-items: center;
+
 }
 .menu-container li {
   color: var(--cor-texto-branca);
@@ -19,6 +20,7 @@
   font-size: 16px;
   font-weight: 400;
   line-height: 16px;
+  z-index: 20 !important;
 }
 
 #burguer {
