@@ -97,7 +97,7 @@
     </section>
     <section class="historia-bg">
         <div class="container container-historia">
-            <div>
+            <div class="imagem-historia">
                 <img src="./Assets/Img/historia.png" alt="">
             </div>
             <div class="conteudo-historia">
@@ -180,10 +180,40 @@
                 <div class="header-faq">
                     <p class="subtitulo-menor">Ficou com alguma duvida?</p>
                     <h4 class="h2">Faça sua pré matricula</h4>
+                    <div class="accordion">
+                        <div class="accordion-item">
+                          <div class="accordion-header">
+                            <h2>Pergunta</h2>
+                            <div class="accordion-icon">+</div>
+                          </div>
+                          <div class="accordion-content">
+                            <p>Aqui está a resposta para a pergunta.</p>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                            <div class="accordion-header">
+                              <h2>Pergunta</h2>
+                              <div class="accordion-icon">+</div>
+                            </div>
+                            <div class="accordion-content">
+                              <p>Aqui está a resposta para a pergunta.</p>
+                            </div>
+                          </div>
+                          <div class="accordion-item">
+                            <div class="accordion-header">
+                              <h2>Pergunta</h2>
+                              <div class="accordion-icon">+</div>
+                            </div>
+                            <div class="accordion-content">
+                              <p>Aqui está a resposta para a pergunta.</p>
+                            </div>
+                          </div>
+                      </div>
+                      
                 </div>
             </div>
-            <div class="formulario">
-                <h4 class="cor-branca">Preencha seus dados para entrarmos em contato</h4>
+            <div class="formulario-bg">
+                <h4 class="title-form cor-branca">Preencha seus dados para entrarmos em contato</h4>
                 <form action="">
                     <div class="form-group">
                         <label for="nome">Nome</label>
@@ -191,7 +221,6 @@
                         <label for="telefone">Telefone</label>
                         <input type="text" id="telefone" placeholder="Telefone ">
                     </div>
-                    <div class="form-group">
                         <label for="email">E-mail</label>
                         <input type="text" placeholder="E-mail">
                         <label for="segmento"></label>
@@ -199,12 +228,14 @@
                             <option value="infantil">Ensino infantil</option>
                             <option value="infantil">Ensino infantil</option>
                         </select>
-                    </div>
+                        <button class="botao botao-enviar" type="submit"> <img src="./Assets/Img/Icons/botao-enviar.svg" alt=""> Enviar</button>
                 </form>
             </div>
         </div>
     </section>
-
+    <footer>
+        <p>© 2023 UpaonAçu. Todos os direitos reservados.</p>
+    </footer>
     <script src="./Assets/Javascript/menu.js"></script>
 </body>
 

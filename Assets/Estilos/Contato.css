@@ -1,5 +1,5 @@
 .contato-bg {
-    padding: 65px 0px;
+    padding: 100px 0px;
 }
 
 .contato-container{
@@ -11,35 +11,95 @@
     background-color: #FEF2D6;
     padding: 32px
 }
-.formulario {
+.formulario-bg {
     background-color: var(--cor-salmao);
     padding: 32px;
     margin-bottom: 20px;
+    box-shadow:  0px -20px var(--cor-salmao);
 }
+.form-group {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
 label {
     display: none;
 }
-.formulario form input {
+.formulario-bg form input {
     margin: 8px;
     padding: 16px;
     border-radius: 8px;
     border: none;
 
 }
-
-form {
-    display: flex;
-    flex-direction: column;
-    overflow: hidden;
-}
-select{
-    padding: 8px;
+.formulario-bg form select {
+    margin: 8px;
+    padding: 16px;
     border-radius: 8px;
     border: none;
-    line-height: 8px;
-    align-items: center;
+
 }
-.form-group {
+form {
+    display: grid;
+
+}
+
+.title-form {
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.accordion {
+    display: grid;
+    padding-top: 16px;
+  }
+
+  .accordion-item {
+    border: .5px solid var(--cor-texto-cinza);
+    margin-bottom: 5px;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+
+  .accordion-header {
+    padding: 8px;
+    cursor: pointer;
     display: flex;
-    align-items: stretch;
-}
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .accordion-header h2 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 400;
+  }
+
+  .accordion-content {
+    padding: 10px;
+    display: none;
+  }
+
+  .open .accordion-content {
+    display: block;
+  }
+
+  .accordion-icon {
+    font-size: 32px;
+    color: var(--cor-salmao);
+  }
+  .botao-enviar {
+    border: none;
+    background-color: var(--cor-principal);
+    grid-column: 1/-1;
+    justify-self: end;
+    margin-top: 8px;
+    margin-right: 8px;
+  }
+  @media (max-width: 800px) {
+        .contato-container{
+            grid-template-columns: 1fr;
+        }
+    }

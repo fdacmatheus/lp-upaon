@@ -62,7 +62,7 @@
     background-color: var(--cor-texto-branca);
     padding: 32px 16px;
     width: 300px;
-    justify-self: end;
+    justify-self: center;
     border-radius: 4px;
     position: absolute;
     top: 50px;

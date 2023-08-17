@@ -101,3 +101,9 @@
 .cor-bg-salmao {
   background-color: var(--cor-salmao);
 }
+footer {
+  background: #FFC145;
+  padding: 8px;
+  text-align: center;
+  color: var(--cor-texto-branca);
+}

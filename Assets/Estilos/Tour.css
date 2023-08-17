@@ -18,3 +18,18 @@
 .tour-container img{
     max-width: 900px;
 }
+
+@media (max-width: 800px) {
+    .tour-container {
+        flex-direction: column;
+        padding: 0px 16px;
+    }
+    .tour-container  img {
+        max-width: 100%;
+    }
+    .header-tour {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+}

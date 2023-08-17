@@ -29,7 +29,9 @@
 .imagem-alunos {
   z-index: 20;
 }
-
+.imagem-alunos img {
+  object-fit: cover;
+}
 .bg-main::after {
   content: "";
   position: absolute;
@@ -54,5 +56,56 @@
   background-position: right top;
   top: 0;
   right: 0;
-  z-index: 2;
+  z-index: 1;
+}
+
+@media (max-width: 1000px) {
+    .call-to-action{
+      padding-top: 0px;
+      flex: 1 1;
+    }
+    .call-to-action h1{
+      font-size: 48px;
+    }
+    .paragrafo {
+      font-size: 14px;
+    }
+    .container-main{
+    gap: 32px;
+    align-items: center;
+    }
+
+
+}
+
+@media (max-width: 800px) {
+  .bg-main::before {
+    width: 150px;
+  }
+.bg-main::after {
+  width: 150px;
+  background-position: bottom;
+  left: 0;
+}
+.bg-main{
+  height: auto;
+  padding: 20px 0px;
+  text-align: center;
+}
+.header-bg{
+  padding: 20px 0px;
+}
+.call-to-action{
+  padding-top: 20px;
+  align-items: center;
+  gap: 16px;
+}
+.container-main{
+  flex-direction: column;
+  padding: 32px;
+}
+.imagem-alunos{
+  display: none;
+}
+
 }
